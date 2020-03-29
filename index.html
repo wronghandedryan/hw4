@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="quiz.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id=quiz-container class="quizContainer container-fluid-lg bg-dark col-12">
+        <div id="quiz1" class="text-center">
+            <h1>Js/JQUERY Quiz</h1>
+            <center><img class="img-responsive" height="300" width="300" src="skull.png"></center>
+            <h4 style="color:white;position:absolute;left:70%;top:30%;" align="center"><span id="iTimeShow">Time
+                    Remaining: </span><span id="timer"></span></h4>
+            <h3>3 Minutes To Complete</h3>
+            <h4>Wronghanded Development</h4>
+        </div>
+
+        <div class="question corners-rnd"></div>
+        <ul class="choiceList"></ul>
+        <div class="quizMessage"></div>
+        <div class="result position-absolute"></div>
+        <div class="btn-group" role="group" aria-label="Button group">
+            <center>
+
+                <button class="preButton">Previous Question</button>
+                <button class="btn btn-hidden"></button>
+                <button class="nextButton">Next Question</button>
+            </center>
+        </div>
+    </div>
+    <!--original try-->
+    <!-- <div id="jumbotron" class="jumbotron jumbotron-fluid">
+                <p class="lead bg-dark p-5">only 30 second per question good luck!</p>
+                <hr class="my-4">
+                <div id="question-container" class="hide">
+                    <div id="question">Question</div>
+                    <div id="answer-buttons" class="btn-grid">
+                        <button class="btn">Answer 1</button>
+                        <button class="btn">Answer 1</button>
+                        <button class="btn">Answer 1</button>
+                        <button class="btn">Answer 1</button>
+                    </div>
+                    <div class="controls">
+                        <button id="start-bnt" class="start-btn  btn">Start</button>
+                        <button id="next-btn" class="start-btn btn">Next</button>
+
+                    </div>
+                </div>
+            </div>-->
+</body>
+
+</html>
